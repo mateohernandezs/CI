@@ -23,14 +23,14 @@ public class TestCIMainTest {
     @Test
     public void testSum() {
         System.out.println("sum");
-        int n1 = 0;
-        int n2 = 0;
+        int n1 = 5;
+        int n2 = 9;
         TestCIMain instance = new TestCIMain();
-        int expResult = 0;
+        int expResult = 14;
         int result = instance.sum(n1, n2);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     
