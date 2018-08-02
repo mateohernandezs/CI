@@ -5,6 +5,7 @@
  */
 package com.bancodebogota.fdm.test;
 
+import com.bancodebogota.fdm.testci.TestCIMain;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
