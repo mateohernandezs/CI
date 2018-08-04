@@ -27,7 +27,7 @@ public class TestCIMainTest {
         int n1 = 5;
         int n2 = 9;
         TestCIMain instance = new TestCIMain();
-        int expResult = 14;
+        int expResult = 10;
         int result = instance.sum(n1, n2);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
